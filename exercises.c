@@ -39,8 +39,8 @@ Utilice la función sumaN.
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
   n = m; 
-  for (; m == 0 ; m--){
-    *suma += a[m];
+  for (; n == 0 ; n--){
+    *suma += a[n];
 
   }
   printf("%d", *suma);
