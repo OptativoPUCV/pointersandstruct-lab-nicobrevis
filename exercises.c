@@ -41,8 +41,9 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
   
   
   for ( ; m >= n ; m++){
-    suma = (int*) calloc (m,sizeof(int));
+    
     *suma += a[m];
+    suma = (int*) calloc (m,sizeof(int));
 
   } 
   
