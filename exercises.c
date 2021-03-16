@@ -38,6 +38,7 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
+  suma = (int*) calloc (m,sizeof(int));
   
   for ( ; m >= n ; m++){
 
