@@ -38,11 +38,11 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
-  m = n; 
+  m = n;
   for (; n > 0 ; n--){
-    *suma += a[n];
+    suma += a[n];
 
-  }
+  } 
   printf("%d", *suma);
 
 }
