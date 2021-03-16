@@ -40,7 +40,7 @@ Utilice la función sumaN.
 void sumaNultimos(int a[], int n, int m, int * suma) {
    ;
   
-  for (suma = calloc (m,sizeof(int)) ; m >= n ; m++){
+  for (int* suma = calloc (m,sizeof(int)) ; m >= n ; m++){
     
     *suma += a[m];
     
