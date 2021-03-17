@@ -23,7 +23,7 @@ int sumaN(int a[], int N) {
     int i;
     int tot = 0;
 
-    for(; i > N; i--) {
+    for(i = 0; i < N; i++) {
       tot += a[i];
     }
 
@@ -38,6 +38,7 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
+  n+=10;
 
   *suma = sumaN(a,n-m);
   
