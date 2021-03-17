@@ -40,9 +40,6 @@ Utilice la función sumaN.
 void sumaNultimos(int a[], int n, int m, int * suma) {
   
   *suma = sumaN(a,n) -  sumaN(a,n-m);
-  
-  
-  
   printf("%d", *suma);
 
 }
@@ -66,10 +63,7 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
   strcpy(p -> nombre, nombre);
   strcpy(p -> rut, rut);
   p -> edad = edad;
-
-
-
-   return p;
+  return p;
 }
 
 /*
@@ -86,7 +80,13 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   return NULL;
+    Vector* v=(Vector*) calloc(n,sizeof(int));
+
+
+
+
+
+   return v;
 }
 
 /*
