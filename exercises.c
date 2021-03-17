@@ -23,7 +23,7 @@ int sumaN(int a[], int N) {
     int i;
     int tot = 0;
 
-    for(; i < N; i--) {
+    for(; i > N; i--) {
       tot += a[i];
     }
 
