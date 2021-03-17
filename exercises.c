@@ -41,12 +41,12 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
    
   
   for (; m == n ; m++){
-    malloc (sizeof(int));
+   
     *suma += a[m];
     
 
   } 
-  
+  printf("%d", *suma);
 
 }
 
