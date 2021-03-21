@@ -634,3 +634,9 @@ Sun Mar 21 00:54:28 UTC 2021:
  tests:  8|0
 total_score: 70/70
 ceba58b
+Sun Mar 21 00:58:24 UTC 2021: 
+ exercises.c | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+ tests:  8|0
+total_score: 70/70
+b6335a1
