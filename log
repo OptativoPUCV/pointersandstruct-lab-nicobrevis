@@ -623,3 +623,8 @@ Sun Mar 21 00:45:34 UTC 2021:
  1 file changed, 5 insertions(+)
  tests:  0|0
 d03ef32
+Sun Mar 21 00:47:47 UTC 2021: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+2c5b81d
