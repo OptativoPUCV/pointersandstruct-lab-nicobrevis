@@ -130,12 +130,10 @@ sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
  
- Vector* a = (Vector*) calloc(2,sizeof(Vector));
- Vector* b = (Vector*) calloc(2,sizeof(Vector));
- c = (Vector*) calloc(2,sizeof(Vector));
- sumaV(a,b,c);
- 
- 
+ int a = a1 + b1;
+ int b = a2 + b2;
+ asignarValor( c , 0 , a );
+ asignarValor( c , 1 , b );
 
 
 }
